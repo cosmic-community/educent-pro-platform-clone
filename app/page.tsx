@@ -62,17 +62,17 @@ export default async function HomePage() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link
-                  href="/admin"
+                  href="#features"
                   className="inline-flex items-center px-6 py-3 bg-white text-primary-600 font-semibold rounded-lg hover:bg-primary-50 transition-colors"
                 >
-                  Admin HQ
+                  Explore Features
                   <ChevronRight className="ml-2 h-5 w-5" />
                 </Link>
                 <Link
-                  href="#features"
+                  href="#institutes"
                   className="inline-flex items-center px-6 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-primary-600 transition-colors"
                 >
-                  See Demo
+                  View Institutes
                 </Link>
               </div>
             </div>
@@ -156,7 +156,7 @@ export default async function HomePage() {
       </section>
 
       {/* Active Tenants Section */}
-      <section className="py-16 bg-white">
+      <section id="institutes" className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Active Institutes</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

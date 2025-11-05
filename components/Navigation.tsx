@@ -1,10 +1,9 @@
 import Link from 'next/link'
-import { Home, Shield, GraduationCap, BookOpen, Users, ChevronRight } from 'lucide-react'
+import { Home, GraduationCap, BookOpen, Users } from 'lucide-react'
 
 export default function Navigation() {
   const navItems = [
     { href: '/', label: 'Home', icon: Home },
-    { href: '/admin', label: 'Admin HQ', icon: Shield },
     { href: '/student', label: 'Student', icon: GraduationCap },
     { href: '/parent', label: 'Parent', icon: Home },
     { href: '/lecturer', label: 'Lecturer', icon: BookOpen },
