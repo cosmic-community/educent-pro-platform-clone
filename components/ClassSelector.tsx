@@ -1,5 +1,5 @@
 import { Class } from '@/types'
-import { BookOpen, Users, Door } from 'lucide-react'
+import { BookOpen, Users, DoorOpen } from 'lucide-react'
 
 interface ClassSelectorProps {
   classes: Class[];
@@ -26,7 +26,7 @@ export default function ClassSelector({ classes }: ClassSelectorProps) {
                   </h4>
                   <div className="mt-2 space-y-1">
                     <p className="text-xs text-gray-600 flex items-center">
-                      <Door className="h-3 w-3 mr-1" />
+                      <DoorOpen className="h-3 w-3 mr-1" />
                       Room {cls.metadata?.room_number}
                     </p>
                     <p className="text-xs text-gray-600 flex items-center">
